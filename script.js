@@ -804,8 +804,6 @@ function App() {
       console.error('Firebase init failed:', e);
     }
   }, []);
-
-console.log("接続中のFirebase:", appInstance.options.projectId);
   
   // Firestore リアルタイムリスナー（RULE 1・RULE 2・エラーコールバック準拠）
   useEffect(() => {
