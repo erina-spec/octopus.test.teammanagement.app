@@ -1446,11 +1446,7 @@ function App() {
                     }`}
                   >
                     OCTOPUS HC
-                  </span>
-                  <span className="inline-flex items-center gap-1 text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-emerald-500/90 text-white">
-                    <Cloud className="w-2.5 h-2.5" />
-                    <span>最新同期</span>
-                  </span>
+                 
                 </div>
                 <h1 className="font-black text-base tracking-tight leading-tight mt-0.5 flex items-center gap-1.5 truncate">
                   <span>オクトパス</span>
@@ -1501,7 +1497,8 @@ function App() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-1.5 bg-black/25 p-1 rounded-xl">
+          <div className="flex items-center gap-2">
+  <div className="grid grid-cols-2 gap-1.5 bg-black/25 p-1 rounded-xl flex-1 min-w-0">
             <button
               onClick={() => {
                 setCategory('junior');
@@ -1540,6 +1537,12 @@ function App() {
               <span>高学年</span>
             </button>
           </div>
+
+  <span className="inline-flex items-center gap-1 text-[9px] font-bold px-2 py-2 rounded-xl bg-emerald-500/90 text-white shrink-0">
+    <Cloud className="w-3 h-3" />
+    <span>最新同期</span>
+  </span>
+</div>   
         </div>
       </header>
 
