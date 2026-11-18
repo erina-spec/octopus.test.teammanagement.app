@@ -1460,6 +1460,10 @@ function App() {
                     {isJunior ? '低学年' : '高学年'}
                   </span>
                 </h1>
+                    <span className="inline-flex items-center gap-1 text-[11px] font-extrabold px-2 py-0.5 rounded-md bg-emerald-500 text-white">
+  <Cloud className="w-3 h-3" />
+  <span>最新同期</span>
+</span>
               </div>
             </button>
 
@@ -1538,9 +1542,6 @@ function App() {
             </button>
           </div>
 
-  <span className="inline-flex items-center gap-1 text-[9px] font-bold px-2 py-2 rounded-xl bg-emerald-500/90 text-white shrink-0">
-    <Cloud className="w-3 h-3" />
-    <span>最新同期</span>
   </span>
 </div>   
         </div>
