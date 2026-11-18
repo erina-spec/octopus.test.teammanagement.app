@@ -1445,7 +1445,7 @@ function App() {
                       isJunior ? 'bg-slate-950 text-orange-400' : 'bg-orange-500 text-white'
                     }`}
                   >
-                    OCTOPUS HC
+                    OCTOPUS JHC
                  
                 </div>
                 <h1 className="font-black text-base tracking-tight leading-tight mt-0.5 flex items-center gap-1.5 truncate">
@@ -1460,9 +1460,6 @@ function App() {
                     {isJunior ? '低学年' : '高学年'}
                   </span>
                 </h1>
-                    <span className="inline-flex items-center gap-1 text-[11px] font-extrabold px-2 py-0.5 rounded-md bg-emerald-500 text-white">
-  <Cloud className="w-3 h-3" />
-  <span>最新同期</span>
 </span>
               </div>
             </button>
