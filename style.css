@@ -1,0 +1,19 @@
+/* オクトパス ハンドボール共有アプリ：追加スタイル
+   ※ 見た目の大半は index.html で読み込む Tailwind のクラス名で指定されています */
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans',
+    'Hiragino Kaku Gothic ProN', 'Yu Gothic', Meiryo, sans-serif;
+}
+
+/* ふりがな（Ruby コンポーネント用） */
+.ruby-align {
+  ruby-align: center;
+  ruby-position: over;
+}
