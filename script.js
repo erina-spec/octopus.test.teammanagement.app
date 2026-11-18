@@ -1446,7 +1446,7 @@ function App() {
                     }`}
                   >
                     OCTOPUS JHC
-                 
+                    </span>                      
                 </div>
                 <h1 className="font-black text-base tracking-tight leading-tight mt-0.5 flex items-center gap-1.5 truncate">
                   <span>オクトパス</span>
