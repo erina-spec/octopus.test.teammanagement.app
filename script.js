@@ -1537,8 +1537,6 @@ function App() {
               <span>高学年</span>
             </button>
           </div>
-
-  </span>
 </div>   
         </div>
       </header>
