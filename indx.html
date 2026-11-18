@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>オクトパス ハンドボール</title>
+
+   <head>
+    <!-- デザイン -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Import Map -->
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@18.3.1",
+        "react-dom/client": "https://esm.sh/react-dom@18.3.1/client?deps=react@18.3.1",
+        "firebase/app": "https://esm.sh/firebase@10.12.2/app",
+        "firebase/auth": "https://esm.sh/firebase@10.12.2/auth",
+        "firebase/firestore": "https://esm.sh/firebase@10.12.2/firestore",
+        "lucide-react": "https://esm.sh/lucide-react@0.383.0?deps=react@18.3.1"
+      }
+    }
+    </script>
+</head>
+
+    <!-- Firebase（みんなで共有したい場合）：下を有効にして自分の設定を入れる。
+         空のままならこの端末だけで動く（保存は共有されない） -->
+
+    <!-- JSX をブラウザ上で変換する -->
+    <script src="https://unpkg.com/@babel/standalone@7.24.7/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel" data-type="module" src="script.js"></script>
+  </body>
+</html>
