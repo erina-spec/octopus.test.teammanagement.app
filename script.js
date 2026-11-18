@@ -676,12 +676,12 @@ const HandballCourtBoard = ({
 };
 
   const firebaseConfig = {
-  apiKey: "AIzaSyCguMErorYNUv6Qm59PXu5KitCpCvmKrJQ",
-  authDomain: "octopusteammanagementapp.firebaseapp.com",
-  projectId: "octopusteammanagementapp",
-  storageBucket: "octopusteammanagementapp.firebasestorage.app",
-  messagingSenderId: "945765844965",
-  appId: "1:945765844965:web:85a0df15dfb6a54697110c",
+  apiKey: "AIzaSyAnK9vu2welqpet97PfS-zrRJISN-7fl-8",
+  authDomain: "octopus-test-tm-app.firebaseapp.com",
+  projectId: "octopus-test-tm-app",
+  storageBucket: "octopus-test-tm-app.firebasestorage.app",
+  messagingSenderId: "219868940737",
+  appId: "1:219868940737:web:b27fc3d30d5522a6488740",
 };
 
 
