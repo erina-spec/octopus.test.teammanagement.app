@@ -1460,7 +1460,6 @@ function App() {
                     {isJunior ? '低学年' : '高学年'}
                   </span>
                 </h1>
-</span>
               </div>
             </button>
 
